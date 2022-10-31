@@ -7,19 +7,19 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("images/ross-sneddon-x1wl3w0ZRhY-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
 }
-img {
-  max-width: 100%;
-}
-h1,
-h2 {
-  text-shadow: 0px 0px 2px #000;
-}
-
 button {
   padding: 0.5em 1em;
-  width: 200px;
+  width: 100px;
   margin: 0.5em 0;
   border: none;
   border-radius: 5px;
@@ -42,16 +42,13 @@ button {
   border-radius: 5px;
 }
 #entries {
-  color: #4169e1;
+  color: #0047ab;
 }
 main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-  background-image: url("images/ross-sneddon-x1wl3w0ZRhY-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
+  background-color: #fff;
+  width: 200px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 5px solid #4169e1;
+  box-shadow: 5px 5px 15px 5px #000000;
 }
